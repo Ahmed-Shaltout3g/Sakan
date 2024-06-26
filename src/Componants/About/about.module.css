@@ -1,0 +1,16 @@
+.background {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.textSpecial 
+{
+    color : #F3883A;
+}
+
+.imgSpecial 
+{
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,48 @@
+.box:hover {
+    cursor: pointer;
+}
+
+.box {
+    color: black;
+    text-decoration: none;
+
+}
+
+.contactButton {
+    border: solid 1px #006169;
+    color: #006169;
+}
+
+.contactButton:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.start {
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.start:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.end {
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.end:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.scroly::-webkit-scrollbar {
+    background-color: black;
+    height: 5px;
+}
+

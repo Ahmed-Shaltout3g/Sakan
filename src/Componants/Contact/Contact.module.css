@@ -1,0 +1,30 @@
+.bgContact {
+    background-color: #102855;
+}
+.background 
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgLayer {
+    background-color: #6E71BB1A;
+    height: 100vh;
+}
+
+.inputContact {
+    border-radius: 0;
+    background: linear-gradient(#999999, white);
+    border: none;
+}
+
+section 
+{
+    background-color: #E2E2E2;
+}
+
+.btnContact 
+{
+    background: linear-gradient(#163D87 ,  #181939    );
+}

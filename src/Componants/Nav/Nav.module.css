@@ -1,0 +1,45 @@
+.menuButton {
+    display: none;
+}
+
+nav {
+    z-index: 55555555555555555555555555555555555555555;
+}
+
+.link:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width:0px) and (max-width:991px) {
+    .menuButton {
+        display: block;
+    }
+    .wSM100 
+    {
+        width: 100%;
+    }
+
+    ul {
+        background-color: white;
+        padding: 30px;
+        justify-content: center;
+    }
+
+    li {
+        width: 100%k;
+    }
+
+    nav {
+        background-color: white;
+    }
+}
+
+.linkHover {
+    color: black;
+    border: solid 2px transparent;
+}
+
+.linkHover:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    cursor: pointer;
+}

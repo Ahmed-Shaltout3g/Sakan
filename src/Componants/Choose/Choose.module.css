@@ -1,0 +1,11 @@
+.chooseImage
+{
+    width: 90px !important;
+}
+
+.box:hover 
+{
+    background-color: #565777 !important;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,62 @@
+header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.171);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+}
+
+
+.btn1 {
+    transition: all 0.3s;
+}
+
+.btn1:hover {
+    background-color: gray !important;
+    color: white;
+}
+
+.btn2 {
+    background-color: gray !important;
+    color: white;
+}
+
+.color {
+    background-color: #171C3E;
+    transition: all 0.4s;
+}
+
+.color:hover {
+    background-color: #10132b;
+}
+
+.pad {
+    padding: 20px;
+}
+
+
+
+.customsWidth {
+    width: 100%;
+}
+
+@media screen and (min-width:0px) and (max-width:991px) {
+    .customsWidth {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:750px) {
+    header 
+    {
+        height: 110vh;
+    }
+}
+
