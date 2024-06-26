@@ -85,7 +85,7 @@ export default function Nav() {
                         </li>
 
                         <li className="nav-item  px-1">
-                            {localStorage.getItem("user") != null || expired ? <Link className={`nav-link ${style.linkHover}  fs-5 fw-bold`} aria-current="page" to="/myad">  {language == 'ع' ? "My Ads" : " اعلاناتي  "} </Link> : ""}
+                            {localStorage.getItem("user") != null ? <Link className={`nav-link ${style.linkHover}  fs-5 fw-bold`} aria-current="page" to="/myad">  {language == 'ع' ? "My Ads" : " اعلاناتي  "} </Link> : ""}
                         </li>
                         <li className="nav-item  px-1">
                             {localStorage.getItem('user') == null ? <Link className={`nav-link ${style.linkHover}  fs-5 fw-bold`} aria-current="page" to="/login">   {language == 'ع' ? "Login" : " تسجيل الدخول  "}   </Link> : <Link onClick={logOut} className={`nav-link ${style.linkHover}  fs-5 fw-bold`}>  {language == 'ع' ? "LogOut" : " خروج  "}   </Link>}
